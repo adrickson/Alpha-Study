@@ -133,7 +133,7 @@ div.continue_google > p {
 
 p#linha_horizontal::before,
 p#linha_horizontal::after{
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration:line-through;
     margin: 0 10px;
 }
@@ -154,7 +154,8 @@ div.termos_condicoes > p{
 div.logo {
     background-image: url('../imagens/logo1-g.png');
     background-position: top center;
+    background-repeat: no-repeat;
     background-size: contain;
-    width: 330px;
-    height: 320px;
+    width: 310px;
+    height: 310px;
 }

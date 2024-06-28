@@ -128,6 +128,7 @@ div.continue_google {
 }
 
 div.continue_google > p {
+    font-size: 0.8em;
     color: rgba(0, 0, 0, 0.534);
 }
 
@@ -153,8 +154,8 @@ div.termos_condicoes > p{
 
 div.logo {
     background-image: url('../imagens/logo1-g.png');
-    background-position: top center;
     background-repeat: no-repeat;
+    background-position: top center; 
     background-size: contain;
     width: 310px;
     height: 310px;

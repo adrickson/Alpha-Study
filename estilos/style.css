@@ -153,10 +153,9 @@ div.termos_condicoes > p{
 }
 
 div.logo {
-    background-image: url('../imagens/logo1-g.png');
-    background-repeat: no-repeat;
-    background-position: top center; 
-    background-size: contain;
-    width: 310px;
-    height: 310px;
+    background: url('../imagens/logo1-g.png') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 210px;
+    height: 210px;
 }

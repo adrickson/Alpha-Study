@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* TABLET */
+
+    form.form_login {
+        width: 400px;
+    }
+
+    div.informacoes_cadastrais {
+        margin: 5px 0;
+    }
+
+    div.continue_google > p {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /* DESKTOP*/
+
+    form.form_login {
+        width: 400px;
+    }
+
+    div.informacoes_cadastrais {
+        margin: 5px 0;
+    }
+
+    div.continue_google > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    form.form_login {
+        width: 400px;
+    }
+
+    div.informacoes_cadastrais {
+        margin: 5px 0;
+    }
+
+    div.continue_google > p {
+        font-size: 1em;
+    }
+
+}

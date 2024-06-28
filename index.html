@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Study</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <section class="informacoes_login">
+
+        <div class="informacoes_cadastrais">
+
+            <div class="cont_tit">
+                <h2>Login</h2>
+            </div>
+
+            <div class="conteudo">
+                <p>Informe o seu e-mail e comece agora</p>
+            </div>
+
+        </div>
+
+        <form action="#" method="post" class="form_login">
+
+            <div class="cont_lab_inp">
+                <input type="text" name="usuario" id="usuario" required placeholder="Usuário">
+            </div>
+            
+            <div class="cont_lab_inp">
+                <input type="password" name="senha" id="senha" required placeholder="Senha">
+            </div>
+
+        </form>
+
+        <div class="button">
+
+            <div class="cont_btn">
+                <input type="submit" value="Continuar">
+                <input type="submit" value="Esqueci a senha">
+            </div>
+
+            <div class="registrasse">
+                <a href="#">Não possui uma conta? Registre-se</a>
+            </div>
+
+            <div class="conteudo continue_google">
+                <p id="linha_horizontal">Ou continue com o Google</p>
+            </div>
+
+            <div class="btn_google">
+
+                <div id="g_id_onload"
+                    data-client_id="SEU_CLIENT_ID"
+                    data-callback="handleCredentialResponse"
+                    data-auto_prompt="false">
+                </div>
+
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-shape="rectangular"
+                    data-theme="outline"
+                    data-text="sign_in_with"
+                    data-size="large">
+                </div>
+                
+            </div>
+
+            <div class="conteudo termos_condicoes">
+                <p>Ao clicar em continuar você confirma que concorda com os termos de uso</p>
+            </div>
+        </div>
+        
+        <div class="logo">
+
+            <picture>
+                <source media="(min-width: 992px)" srcset="./imagens/logo1-g.png">
+                <img src="./imagens/logo1.png" alt="Logo">
+            </picture>
+
+        </div>
+
+    </section>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</body>
+</html>

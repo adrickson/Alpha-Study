@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #FA7F08;
+    --cor_hover: #e07409;
+
+    --fonte_titulos: "Inter", sans-serif;
+}
+
+section.informacoes_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.informacoes_cadastrais {
+    text-align: center;
+    margin: 30px 0;
+}
+
+div.cont_tit {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.cont_tit > h2 {
+    font-family: var(--fonte_titulos);
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+div.conteudo {
+    font-family: var(--fonte_titulos);
+    font-size: 1.1em;
+}
+
+form.form_login {
+    padding: 7px;
+    width: 90vw;
+}
+
+div.cont_lab_inp {
+    padding: 5px;
+    margin-bottom: 10px;
+
+    width: 100%;
+}
+
+div.cont_lab_inp > input {
+    font-family: var(--fonte_titulos);
+    font-size: 1.1em;
+    padding: 5px;
+    outline: 2px solid var(--cor1);
+    border-radius: 6px;
+    border: none;
+
+    width: 100%;
+}
+
+div.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.cont_btn {
+    margin-bottom: 20px;
+}
+
+div.cont_btn > input {
+    cursor: pointer;
+    background-color: var(--cor1);
+    font-family: var(--fonte_titulos);
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+div.cont_btn > input:hover{
+    background-color: var(--cor_hover);
+    transform: scale(1.1);
+    box-shadow: 1px 1.5px 3px rgba(0, 0, 0, 0.384);
+}
+
+div.cont_btn > input:last-child {
+    margin-left: 40px;
+}
+
+div.registrasse {
+    padding: 5px;
+}
+
+div.registrasse > a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--cor1);
+    font-family: var(--fonte_titulos);
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+div.registrasse > a:hover {
+    background-color: var(--cor_hover);
+    transform: translateY(-4px);
+    box-shadow: 1px 1.5px 3px rgba(0, 0, 0, 0.384);
+}
+
+div.continue_google {
+    margin-top: 30px;
+    display: flex;
+}
+
+div.continue_google > p {
+    color: rgba(0, 0, 0, 0.534);
+}
+
+p#linha_horizontal::before,
+p#linha_horizontal::after{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    margin: 0 10px;
+}
+
+div.btn_google {
+    margin: 30px 0;
+}
+
+div.termos_condicoes {
+    text-align: center;
+    width: 90%;
+}
+
+div.termos_condicoes > p{
+    font-size: 0.8em;
+}

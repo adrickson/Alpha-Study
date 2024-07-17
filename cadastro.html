@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro AS</title>
+    <link rel="stylesheet" href="estilos/cadastro.css">
+</head>
+<body>
+    <section class="cadastro">
+
+        <div class="cont_tits">
+            <h2>Crie sua conta</h2>
+        </div>
+
+        <div class="conteudo">
+            <p>Preencha as informações corretamente</p>
+        </div>
+
+        <form action="#" class="form_cadastro">
+
+            <div class="inpts">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="inpts">
+                <input type="date" name="date" id="date" placeholder="Data de nascimento" required>
+            </div>
+
+            <div class="inpts">
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+            </div>
+
+            <div class="inpts">
+                <input type="password" name="confirma-senha" id="confirma-senha" placeholder="Confirme sua senha" required>
+            </div>
+
+            <div class="inpt_enviar">
+                <input type="submit" value="Confirmar">
+            </div>
+
+        </form>
+
+        <div class="cadastro_google">
+
+            <div class="informativo">
+                <p id="linha_horizontal">Ou continue com o Google</p>
+            </div>
+
+            <div class="btn_google">
+
+                <div id="g_id_onload"
+                    data-client_id="SEU_CLIENT_ID"
+                    data-callback="handleCredentialResponse"
+                    data-auto_prompt="false">
+                </div>
+
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-shape="rectangular"
+                    data-theme="outline"
+                    data-text="sign_in_with"
+                    data-size="large">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="termos_de_uso">
+
+            <div class="conteudo conteudo_termos">
+                <p>Ao clicar em confirmar você concorda com os termos de uso da plataforma.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</body>
+</html>
